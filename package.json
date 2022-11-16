@@ -1,0 +1,33 @@
+{
+  "name": "laravel-state",
+  "directories": {
+    "doc": "docs",
+    "test": "tests"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^16.2.4",
+    "@commitlint/config-conventional": "^16.2.4",
+    "@vuepress/plugin-active-header-links": "^1.8.2",
+    "@vuepress/plugin-pwa": "^1.8.2",
+    "@vuepress/plugin-register-components": "^1.8.2",
+    "husky": "^7.0.4",
+    "vuepress": "^1.8.2",
+    "vuepress-theme-vt": "^0.4.2"
+  },
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moirei/laravel-state.git"
+  },
+  "bugs": {
+    "url": "https://github.com/moirei/laravel-state/issues"
+  },
+  "homepage": "https://moirei.github.io/laravel-state/",
+  "dependencies": {
+    "vuepress-plugin-seo": "^0.2.0"
+  }
+}

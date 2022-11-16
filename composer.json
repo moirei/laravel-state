@@ -1,0 +1,54 @@
+{
+  "name": "moirei/laravel-state",
+  "description": "Managing model state made easy.",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Augustus",
+      "email": "augustusokoye@moirei.com"
+    }
+  ],
+  "keywords": [
+    "MOIREI",
+    "laravel",
+    "model",
+    "eloquent",
+    "state",
+    "state machine",
+    "enum"
+  ],
+  "scripts": {
+    "pint": "./vendor/bin/pint",
+    "pint:test": "./vendor/bin/pint --test",
+    "test": "./vendor/bin/pest"
+  },
+  "require": {
+    "php": "^8.0",
+    "illuminate/support": "^7|^8|^9",
+    "illuminate/contracts": "^7|^8|^9"
+  },
+  "require-dev": {
+    "pestphp/pest": "^1.21",
+    "pestphp/pest-plugin-laravel": "^1.2",
+    "orchestra/testbench": "^7.5",
+    "illuminate/contracts": "^7|^8|^9",
+    "phpunit/phpunit": "^9.5",
+    "thled/pest-plugin-shorthands": "^1.1",
+    "spatie/invade": "^1.1",
+    "laravel/pint": "^1.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "MOIREI\\State\\": "src",
+      "MOIREI\\State\\Tests\\": "tests"
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "config": {
+    "allow-plugins": {
+      "pestphp/pest-plugin": true
+    }
+  }
+}
