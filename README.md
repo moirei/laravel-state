@@ -6,7 +6,7 @@ There has been a few solutions before the advent of PHP Enums, hwoever, this pac
 
 ## Documentation
 
-All documentation is available at [the documentation site](https://moirei.github.io/state).
+All documentation is available at [the documentation site](https://moirei.github.io/laravel-state).
 
 ## Features
 
@@ -148,7 +148,7 @@ if($order->status->is('pending')){
 ## Installation
 
 ```bash
-composer require moirei/state
+composer require moirei/laravel-state
 ```
 
 ## Tests
