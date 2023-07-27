@@ -25,15 +25,14 @@
   },
   "require": {
     "php": "^8.0",
-    "illuminate/support": "^7|^8|^9",
-    "illuminate/contracts": "^7|^8|^9"
+    "illuminate/support": "^7|^8|^9|^10",
+    "illuminate/contracts": "^7|^8|^9|^10"
   },
   "require-dev": {
     "pestphp/pest": "^1.21",
     "pestphp/pest-plugin-laravel": "^1.2",
     "orchestra/testbench": "^7.5",
-    "illuminate/contracts": "^7|^8|^9",
-    "phpunit/phpunit": "^9.5",
+    "phpunit/phpunit": "^9.5|^10",
     "thled/pest-plugin-shorthands": "^1.1",
     "spatie/invade": "^1.1",
     "laravel/pint": "^1.2"
