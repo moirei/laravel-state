@@ -63,7 +63,7 @@ trait HasEnumState
             $model->$attribute = $state;
         } else {
             // standalone use
-            $result = Helpers::transitionTo(statc::class, $this, $state);
+            $result = Helpers::transitionTo(self::type(), $this, $state);
             if ($result === false) {
                 return $this;
             }
