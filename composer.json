@@ -24,17 +24,16 @@
     "test": "./vendor/bin/pest"
   },
   "require": {
-    "php": "^8.0",
-    "illuminate/support": "^7|^8|^9|^10",
-    "illuminate/contracts": "^7|^8|^9|^10"
+    "php": "^8.1",
+    "illuminate/support": "^9|^10|^11|^12",
+    "illuminate/contracts": "^9|^10|^11|^12"
   },
   "require-dev": {
-    "pestphp/pest": "^1.21",
-    "pestphp/pest-plugin-laravel": "^1.2",
-    "orchestra/testbench": "^7.5",
-    "phpunit/phpunit": "^9.5|^10",
-    "thled/pest-plugin-shorthands": "^1.1",
-    "spatie/invade": "^1.1",
+    "pestphp/pest": "^3.0",
+    "pestphp/pest-plugin-laravel": "^3.0",
+    "orchestra/testbench": "^9.0",
+    "phpunit/phpunit": "^11.0",
+    "spatie/invade": "^2.0",
     "laravel/pint": "^1.2"
   },
   "autoload": {
